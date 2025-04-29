@@ -1,0 +1,29 @@
+mention_code:
+a - algospeak
+m - meta/mention
+n - not algospeak, not present
+o - other
+
+replace code: what word is replaced?
+unclear - not clear
+kill
+die
+dead
+etc.
+
+topic_code:
+suicide - suicide
+Minecraft - Minecraft movie
+censorship - anticensorship
+softening - softening
+unclear - unclear
+joke - joke that doesn't clearly fit into one of the other categories
+Elon Musk
+Garcia - talking about the man who was deported to El Salvador
+Trump
+economics
+living - talking about daily life, a general category
+politics - other politics
+language - talking about algospeak, but not fitting into censorship or softening
+media - talking about media (music, TV shows, books, etc.)
+mental health - mental health other than suicide
