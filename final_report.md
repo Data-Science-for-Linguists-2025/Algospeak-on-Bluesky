@@ -70,8 +70,19 @@ The most common topic is politics, with unclear and censorship tying for second 
 When separated out by mention code, it is clear that most topics are overwhelmingly in one code. For instance, censorship and minecraft are mostly mentions, while political topics are mostly uses of algospeak in earnest. 
 
 ## Analysis
+### Qualitative Analysis
+The data reveals that algospeak, used earnestly, is frequently occurring on Bluesky. The corpus only covers the top posts (though I'm not sure how that is determined) over a time frame a month and a half. Among these posts, *unalive* is more frequently used as algospeak than just mentioned for metadiscourse purposes. As explained above, Bluesky does not primarily rely on recommendation algorithms as other social media sites do, so this is surprising. There is no clear need to use algospeak, as algorithmic suppression is not a concern. Still, algospeak is used on Bluesky. My primary hypothesis is that this is basically a language contact situation between more algorithmic apps like TikTok, and other apps like Bluesky. Users often use multiple social media sites, so they get into the habit of using algospeak on one site, and bring it to another site. In fact, some posts do directly speak on this, such as this post:
+>I get why video creators on TikTok and YouTube use "unalive", but it grinds my gears when I see it in comments or places like BlueSky where we're not monetizing our content.
 
-All Unalive Posts:
+This is a common cause of frustration with algospeak on sites that are not TikTok, so it is not surprising to see it in this data set. 
+
+With regards to topic, the many of the top topics have to do with things that could get suppressed on other social media platforms, such as politics, suicide, and mental health. There are exceptions, such as media and minecraft. Minecraft is its own topic because a character in the Minecraft movie says the word "unalive", and many people posted about this occurance. Of course, all of these posts touch on violence in some way, as *unalive* denotes violence in and of itself. To me, this suggests that beliefs around why algospeak should be used remain in place regardless of the social media site it is used on. If algospeak is used to circumvent suppression on political topics on TikTok, then users will use it for political topics on other platforms as well. 
+
+### Computaitonal Analysis
+
+First, I completed a [KMeans clustering analysis](https://nbviewer.org/github/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/blob/main/algospeak_topic_modeling.ipynb#2-K-means-clustering) to discover the ideal amount of topics for topic modeling. Then, after using the [NMF model](https://nbviewer.org/github/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/blob/main/algospeak_topic_modeling.ipynb#3-Topic-Modelling) I had the resulting topics:
+
+**All Unalive Posts:**
 | Topic     | Top Words                                                                     |
 |-----------|-------------------------------------------------------------------------------|
 | 0         | people like say words trying kill just tiktok use way                         |
@@ -81,7 +92,7 @@ All Unalive Posts:
 | 4         | going somebody make right let hard life ups pop constant                      |
 | 5         | ll hope shit wrong picking wildlife critter tourists love news                |
 
-Just a coded posts:
+**Just a coded posts:**
 | Topic     | Top Words                                                                     |
 |-----------|-------------------------------------------------------------------------------|
 | 0         | people think trying like allowed tell trans hate legally fucking              |
@@ -93,7 +104,7 @@ Just a coded posts:
 | 6         | trump touches life miserable risk making coming having hitler hated           |
 | 7         | gonna unaliving highkey sweaty doesn minecraft blooded hear believing hot     |
 
-Just m coded posts:
+**Just m coded posts:**
 | Topic     | Top Words                                                                     |
 |-----------|-------------------------------------------------------------------------------|
 | 0         | chungus character named general said say word tells called instead            |
@@ -105,7 +116,25 @@ Just m coded posts:
 | 6         | don live know telling omg keeps dude write actually moonshine                 |
 | 7         | la en por que inglés vez rrss poco inducción dice                             |
 
+One thing that surprised me was how few topics the KMeans analysis found for the whole corpus. Since there were only 199 posts, this should not be too surprising, but the subsets of the corpus were recommended more topics than the whole. When doing qualitative coding, I found 15 topics, while the KMeans clustering only found 6 for the whole corpus, and 8 for the subsets. That being said, many of the topics found do line up with the topics I identified, mostly on the political side. The m coded topics are more diverse, but because the set of data is so small, it may be picking up individual posts for topics. 
+
+Comapared to my grounded theory coding, I do not think that topic modelling in this project works as well. Some of the topics modelled are recognizable to me *only because* I have already read through each post and thought about how to categorize them. However, this may be because of the small size of the data. It's hard to know how this would work with a larger corpus, but it would probably work better. That being said, 199 is already on the larger side for sociolinguistic analysis. Still, this direction might be worth looking into further with a larger corpus and more time to fine tune everything.
+
 ## Conclusion
 
+This project shows that the use of algospeak on Bluesky, despite its differences from other social media platforms, is consistent with how algospeak is used on more algorithmic forms of social media. In addition, this project reveals that topic modelling is not always enough to get at the complexity of qualitative data, at least at small data sizes. 
+
+As someone who is doing other research on algospeak, this is my first foray into analysis of algospeak outside of TikTok. I plan on continuing to look at other social media platforms, as well as the use of algospeak in offline contexts. The conclusion that algospeak is used similarly on Bluesky as on other social media sites is intruiging, and I am interested to see if it holds. 
+
+This project is also one of my first attempts to combine computational methods with sociolinguistic methods, something I am interested in developing further. While this aspect of the project did not work as I hoped, I am curious about how I could improve this methodology or use other similar methodologies for my sociolinguistic research.
 
 ## References
+
+Community Guidelines | TikTok. (2024, April 17). https://www.tiktok.com/community-guidelines/en
+
+Dunphy, R. (2017, December 28). Can YouTube Survive the Adpocalypse? Intelligencer. https://nymag.com/intelligencer/2017/12/can-youtube-survive-the-adpocalypse.html
+
+Lorenz, T. (2022, April 11). Internet ‘algospeak’ is changing our language in real time, from ‘nip nops’ to ‘le dollar bean.’ Washington Post. https://www.washingtonpost.com/technology/2022/04/08/algospeak-tiktok-le-dollar-bean/
+
+Vaughan-Nichols, S. (2023, May 16). Bluesky Social just took a big open-source step forward. ZDNET. https://www.zdnet.com/article/bluesky-social-just-took-a-big-open-source-step-forward/
+
