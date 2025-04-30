@@ -41,7 +41,33 @@ After this, I went back and redid the mention codes, but I also added two new qu
 After this, I ran topic modelling on the unalive data. This modelling can be seen in [this notebook.](https://nbviewer.org/github/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/blob/main/algospeak_topic_modeling.ipynb) Even though I do not have quite enough data to do topic modelling, I wanted to see how it would compare with the qualitative analysis I did by hand. One problem in sociolinguistics is that it is hard to do analysis on larger amounts of data, even though large amounts of data is available, especially online. A side question of this project is to see if computational methods such as topic modelling can aid in this. 
 
 ## Data
+For the unalive data, I ended up having 199 Bluesky posts, most of them actually containing the word *unalive*, which is unambiguously algospeak. The mention codes for the unalive data are shown in the following graph:
 
+![Unalive by Mention Code](plots/unalive_by_code.png)
+
+As seen here, most of the posts are using *unalive* as algospeak, while only around 60 of the posts are just mentioning it. This proportion was higher than I expected. As I previously mentioned, Bluesky does not have the algorithmic suppression that creates a need for algospeak, yet people still use it.
+
+To see how other Bluesky users react to these posts, uptake was measured through interactions like replies, likes, and quote posts.
+
+![Uptake by Mention Code](plots/interactions_by_mention_code.png)
+
+Between the two categories that actually used the algospeak, the posts that mention *unalive* do better than the posts that use *unalive*. This is more in line with previous expectations about algospeak on Bluesky, where metadiscourse would be more prominent.
+
+To see how Bluesky users were using *unalive* to replace other words, I coded each instance for the word it is ostensibly replacing.
+
+![Replace Codes](plots/replace_code.png)
+
+This graph shows that *kill* is the most common meaning of unalive while *dead* falls at a distant second. *Die* and *killed* are also possible meanings of *unalive*, showing remarkable linguistic flexability. *Unalive* can be a verb or an adjective, and also be both present and past tense. This is without taking into account other variants like *unalived* or *unaliving*. 
+
+Each post was also coded for the topic of the post. A graph of these topics is below. 
+
+![Topic Codes](plots/topic_code.png)
+
+The most common topic is politics, with unclear and censorship tying for second most common. Elon Musk, Garcia, and Trump can also be considered politics, so politics is overwhelmingly the most common topic. This is expected for Bluesky, as it is primarily liberal ex-Twitter users. In third place, minecraft and media tie, showing that not all uses of *unalive* are about politics.
+
+![Topic Code by Mention Code](plots/topic_by_mention.png)
+
+When separated out by mention code, it is clear that most topics are overwhelmingly in one code. For instance, censorship and minecraft are mostly mentions, while political topics are mostly uses of algospeak in earnest. 
 
 ## Analysis
 
