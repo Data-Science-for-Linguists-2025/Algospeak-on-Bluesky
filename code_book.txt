@@ -1,17 +1,17 @@
-mention_code:
+mention_code: How is the word used?
 a - algospeak
 m - meta/mention
-n - not algospeak, not present
+n - not algospeak
 o - other
 
-replace code: what word is replaced?
+replace code: What word is replaced?
 unclear - not clear
 kill
 die
 dead
 etc.
 
-topic_code:
+topic_code: What is the topic of the post?
 suicide - suicide
 Minecraft - Minecraft movie
 censorship - anticensorship
