@@ -71,6 +71,39 @@ When separated out by mention code, it is clear that most topics are overwhelmin
 
 ## Analysis
 
+All Unalive Posts:
+| Topic     | Top Words                                                                     |
+|-----------|-------------------------------------------------------------------------------|
+| 0         | people like say words trying kill just tiktok use way                         |
+| 1         | character chungus named general said movie word minecraft say tells           |
+| 2         | don know time just wish really want telling live care                         |
+| 3         | gonna minecraft unaliving sweaty hate fucking pew say straight movie          |
+| 4         | going somebody make right let hard life ups pop constant                      |
+| 5         | ll hope shit wrong picking wildlife critter tourists love news                |
+
+Just a coded posts:
+| Topic     | Top Words                                                                     |
+|-----------|-------------------------------------------------------------------------------|
+| 0         | people think trying like allowed tell trans hate legally fucking              |
+| 1         | going somebody let reason hard make good impact question regret               |
+| 2         | really concerned know sorry stuff moment actually instructed harry deflect    |
+| 3         | fucker fuck right thing fat wants try bring fact bullshit                     |
+| 4         | wish don want care just come happens time government reason                   |
+| 5         | hope ll literally book deserves hounded throw 82 hopefully social             |
+| 6         | trump touches life miserable risk making coming having hitler hated           |
+| 7         | gonna unaliving highkey sweaty doesn minecraft blooded hear believing hot     |
+
+Just m coded posts:
+| Topic     | Top Words                                                                     |
+|-----------|-------------------------------------------------------------------------------|
+| 0         | chungus character named general said say word tells called instead            |
+| 1         | like say shit things pew murder kill people gonna bullshit                    |
+| 2         | minecraft movie saying features unironically sure character movies gonna im   |
+| 3         | use words people content creators tiktok youtube video suicide places         |
+| 4         | hate sewer slide sounds childish forever fucking term straight im             |
+| 5         | just bikini word new dropped saw euphemism silly sanest cutest                |
+| 6         | don live know telling omg keeps dude write actually moonshine                 |
+| 7         | la en por que inglés vez rrss poco inducción dice                             |
 
 ## Conclusion
 
