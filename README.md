@@ -13,15 +13,14 @@ The data for this project is a corpus of posts from the social meda platform [Bl
 
 ## Directiory
 - [**final_report.md**](https://github.com/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/blob/main/final_report.md) - Final write-up for this project
-- [plots](https://github.com/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/tree/main/plots) - A folder with images of plots
+- [plots/](https://github.com/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/tree/main/plots) - A folder with images of plots
+- [data/](https://github.com/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/tree/main/data) - A folder containing data files
 - [algospeak_topic_modeling.ipynb](https://nbviewer.org/github/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/blob/main/algospeak_topic_modeling.ipynb) - A notebook containing the topic modelling analysis of this project
 - [coded_data_viz.ipynb](https://nbviewer.org/github/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/blob/main/coded_data_viz.ipynb) - A notebook contaning data exploration and visualisation
 - [getting_bsky_data.ipynb](https://nbviewer.org/github/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/blob/main/getting_bsky_data.ipynb) - A notebook containing the data collection pipeline for my intitial set of data
 - [getting_unalive_data.ipynb](https://nbviewer.org/github/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/blob/main/getting_unalive_data.ipynb) - A notebook contaning the data collection pipeline for my second set of data
 - [algospeak_on_bsky_slides.pdf](https://github.com/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/blob/main/algospeak_on_bsky_slides.pdf) - The slides for the presentation for this project
 - [code_book.txt](https://github.com/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/blob/main/code_book.txt) - Code book for the qualitative coding
-- [algospeak_top_posts.csv](https://github.com/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/blob/main/algospeak_top_posts.csv) - The initial set of data on posts containing five algospeak terms
-- [unalive_top_posts.csv](https://github.com/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/blob/main/unalive_top_posts.csv) - The second set of data on posts containing 'unalive'
 - [LICENSE.md](https://github.com/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/blob/main/LICENSE.md) - The license for reusing my work
 - [progress_report.md](https://github.com/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/blob/main/progress_report.md) - Progress reports of this project
 - [project_plan.md](https://github.com/Data-Science-for-Linguists-2025/Algospeak-on-Bluesky/blob/main/project_plan.md) - The initial project plan for this project
